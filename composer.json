@@ -1,0 +1,21 @@
+{
+    "name": "jader/i-log",
+    "description": "Yii2的日志扩展，用于把各种日志统一输出，以方便接入阿里日志服务； 同时扩展了SQL日志、请求日志、配置日志，并支持各种日志配置；",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jader",
+            "email": "hmy940118@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "iLog\\": "src/"
+        }
+    }
+}
